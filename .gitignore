@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Build and dist files (if applicable)
+dist/
+build/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Database files (local storage)
+*.db
+*.sqlite
+data/expenses.json
+
+# Node version manager
+.nvmrc
+
+# Misc
+.cache/
